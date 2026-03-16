@@ -1,17 +1,83 @@
-# flutter_application_1
+# Mini Katalog Uygulaması
 
-A new Flutter project.
+## Proje Adı
 
-## Getting Started
+Mini Katalog Uygulaması
 
-This project is a starting point for a Flutter application.
+## Proje Açıklaması
 
-A few resources to get you started if this is your first Flutter project:
+Bu proje, Flutter kullanılarak geliştirilen basit bir mobil katalog uygulamasıdır.
+Uygulama, temel Flutter kavramlarını öğrenmek amacıyla geliştirilmiştir.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Proje kapsamında aşağıdaki konular uygulanmıştır:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter widget yapısı
+* Sayfalar arası geçiş (Navigation)
+* Temel kullanıcı arayüzü (UI) tasarımı
+* Veri modeli oluşturma
+* Proje klasörleme yapısı
+
+Uygulamada ürünlerin listelendiği bir ana sayfa bulunmaktadır. Kullanıcılar bir ürüne tıkladığında ürünün detay bilgilerini görüntüleyebilmektedir.
+
+## Kullanılan Teknolojiler
+
+* Flutter
+* Dart
+* Material Design Widgets (`material.dart`)
+
+## Flutter Sürümü
+
+Bu proje aşağıdaki Flutter sürümü kullanılarak geliştirilmiştir:
+
+```
+Flutter 3.41.4
+```
+## Proje Yapısı
+
+```
+lib/
+│
+├── main.dart
+├── model/
+│   └── product.dart
+├── services/
+│   ├── api_service.dart
+├── components/
+│   ├── product_card.dart
+└── views/
+    └── home_screen.dart
+    └── cart_screen.dart
+    └── product_detail_screen.dart
+```
+
+## Uygulamayı Çalıştırma Adımları
+
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+1. Depoyu klonlayın
+
+```
+git clone https://github.com/kullaniciadi/projeadi.git
+```
+
+2. Proje klasörüne girin
+
+```
+cd projeadi
+```
+
+3. Gerekli paketleri yükleyin
+
+```
+flutter pub get
+```
+
+4. Uygulamayı çalıştırın
+
+```
+flutter run
+```
+
+## Not
+
+Bu proje eğitim amacıyla geliştirilmiş bir uygulamadır ve Flutter'ın temel kullanımını göstermek için hazırlanmıştır.
